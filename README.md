@@ -1,3 +1,5 @@
+![example workflow]
+(https://github.com/mvalsania/pagila-hw2/blob/master/.github/workflows/tests.yml)
 # pagila-hw2
 
 This is the second SQL homework in CMC's CSCI143: Big Data class.
