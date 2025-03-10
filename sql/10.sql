@@ -16,4 +16,4 @@ JOIN rental r ON i.inventory_id = r.inventory_id
 JOIN payment p ON r.rental_id = p.rental_id
 CROSS JOIN LATERAL unnest(f.special_features) AS feature
 GROUP BY feature
-ORDER BY profit DESC;
+ORDER BY special_feature ASC;
